@@ -33,7 +33,7 @@ export default function ContactForm() {
    return (
       <div className="contact">
       <h1>Contact</h1>
-      <Link to="/listemessages">Liste des articles</Link>
+      <Link to="/article">Liste des articles</Link>
       <form method="POST" onSubmit={handleSubmit}>
       <div>
       <input

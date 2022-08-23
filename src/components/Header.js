@@ -1,15 +1,13 @@
-import { Link, Outlet } from "react-router-dom";
+import Nav from "./Nav";
 
 export default function Header() {
   return (
     <>
-      <nav>
-        <Link to="/article">Articles</Link>
-        <Link to="/ajoutArticle">Ajouter Article</Link>
-        <Link to="/aPropos">A Propos</Link>
+      <header className="header">
+        <Nav />
+      </header>
 
-      </nav>
-      <Outlet/>
+
     </>
   );
 }

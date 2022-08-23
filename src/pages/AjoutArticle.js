@@ -11,7 +11,7 @@ export default function ContactForm() {
    const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-         await addDoc(collection(db, "contacts"), {
+         await addDoc(collection(db, "articles"), {
             titre: titre,
             article: article,
             created: Timestamp.now(),
@@ -31,7 +31,7 @@ export default function ContactForm() {
    }
 
    return (
-      <div className="contact">
+      <div className="articles">
       <h1>Contact</h1>
       <Link to="/article">Liste des articles</Link>
       <form method="POST" onSubmit={handleSubmit}>

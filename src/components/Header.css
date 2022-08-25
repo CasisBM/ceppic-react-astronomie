@@ -1,0 +1,25 @@
+header {
+position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #50279c;
+  text-align: center;
+  top: 0;
+  overflow: hidden;
+}
+nav {
+  bottom: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+a {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  line-height: 1;
+  text-decoration: none;     
+   position: relative;    
+   z-index: 1;       
+}

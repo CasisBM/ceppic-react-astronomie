@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link,Navigate  } from "react-router-dom";
 import { db } from "../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
+import "./AjoutArticle.css";
 
 export default function ContactForm() {
    const [titre, setTitre] = useState();
@@ -26,14 +27,14 @@ export default function ContactForm() {
       return (
          <>
         <p> Article ajouté.</p>
+        <Navigate  to="/article" />
          </>
       );
    }
 
    return (
-      <div className="articles">
-      <h1>Contact</h1>
-      <Link to="/article">Liste des articles</Link>
+      <div className="article">
+      <h1>Ajouter un article</h1>
       <form method="POST" onSubmit={handleSubmit}>
       <div>
       <input

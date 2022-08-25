@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ceppic-react-astronomie/static/css/main.f93036f6.css",
-    "main.js": "/ceppic-react-astronomie/static/js/main.948ee615.js",
+    "main.js": "/ceppic-react-astronomie/static/js/main.8ed93c6e.js",
     "static/js/787.a5aed58b.chunk.js": "/ceppic-react-astronomie/static/js/787.a5aed58b.chunk.js",
     "static/media/cartoon-galaxy-with-stars-background_52683-65530.webp": "/ceppic-react-astronomie/static/media/cartoon-galaxy-with-stars-background_52683-65530.86ddbe0335daa6581511.webp",
     "static/media/logo.svg": "/ceppic-react-astronomie/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ceppic-react-astronomie/index.html",
     "main.f93036f6.css.map": "/ceppic-react-astronomie/static/css/main.f93036f6.css.map",
-    "main.948ee615.js.map": "/ceppic-react-astronomie/static/js/main.948ee615.js.map",
+    "main.8ed93c6e.js.map": "/ceppic-react-astronomie/static/js/main.8ed93c6e.js.map",
     "787.a5aed58b.chunk.js.map": "/ceppic-react-astronomie/static/js/787.a5aed58b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f93036f6.css",
-    "static/js/main.948ee615.js"
+    "static/js/main.8ed93c6e.js"
   ]
 }

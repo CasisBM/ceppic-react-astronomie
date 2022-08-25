@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "dotenv": "^16.0.1",
     "firebase": "^9.9.3",
+    "gh-pages": "^4.0.0",
     "os-browserify": "^0.3.0",
     "path-browserify": "^1.0.1",
     "process": "^0.11.10",
@@ -17,12 +18,15 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://CasisBM.github.io/ceppic-react-astronomie/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+   },
   "eslintConfig": {
     "extends": [
       "react-app",

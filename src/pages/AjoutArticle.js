@@ -33,7 +33,8 @@ export default function ContactForm() {
    }
 
    return (
-      <div className="article">
+      <>
+      <div className="container">
       <h1>Ajouter un article</h1>
       <form method="POST" onSubmit={handleSubmit}>
       <div>
@@ -60,5 +61,7 @@ export default function ContactForm() {
       </div>
       </form>
       </div>
+
+      </>
    );
 }

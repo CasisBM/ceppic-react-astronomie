@@ -6,9 +6,10 @@ export default function Footer() {
 
   return (
     <>
-      <footer>
-        <p>&copy; - {CurrentYear()}</p>
-      </footer>
+    <div className="footer">
+          <p>&copy; - {CurrentYear()}</p>
+    </div>
+
     </>
   );
 }
